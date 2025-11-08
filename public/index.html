@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guide Staff — Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-body">
+  <div class="login-container">
+    <h1>Guide Staff — Acesso</h1>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Nome de usuário" required />
+      <select id="role" required>
+        <option value="">Selecione cargo</option>
+        <option value="owner">Owner</option>
+        <option value="admin">Admin</option>
+        <option value="mod">Mod</option>
+        <option value="helper">Helper</option>
+      </select>
+      <input type="password" id="password" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+      <p id="error-msg"></p>
+    </form>
+  </div>
+  <footer>© 2025 Guide Staff</footer>
+  <script src="script.js"></script>
+</body>
+</html>

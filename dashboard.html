@@ -9,40 +9,63 @@
 <body class="dashboard-page">
   <nav>
     <h2>Staff Dashboard</h2>
-    <button onclick="logout()">Logout</button>
+    <div>
+      <button onclick="goToAdmin()">Admin Panel</button>
+      <button onclick="logout()">Logout</button>
+    </div>
   </nav>
   <main>
     <h3 id="welcome"></h3>
+
     <section id="rules">
-      <h4>Rules</h4>
+      <h4>Server Rules</h4>
       <ul>
         <li>Respect all members equally.</li>
-        <li>Do not abuse your power.</li>
-        <li>Always act maturely and responsibly.</li>
+        <li>No discrimination, hate speech, or harassment.</li>
+        <li>Do not abuse your staff privileges.</li>
+        <li>Keep channels organized and topic-specific.</li>
+        <li>No spamming or advertising.</li>
+        <li>Follow server announcements and updates.</li>
+        <li>Always report serious issues to higher staff.</li>
+        <li>Protect sensitive information and member privacy.</li>
       </ul>
     </section>
 
-    <section id="permissions">
-      <h4>Permissions by Role</h4>
+    <section id="roles">
+      <h4>Staff Roles & Responsibilities</h4>
       <ul>
-        <li><b>Owner:</b> Full access to everything.</li>
-        <li><b>Sub Owner:</b> Manage admins, configs, and members.</li>
-        <li><b>Executive:</b> Manage staff and server sections.</li>
-        <li><b>Manager:</b> Moderate channels, assign roles.</li>
-        <li><b>Dev:</b> Manage bot systems and code.</li>
-        <li><b>Moderator:</b> Keep chats clean and safe.</li>
-        <li><b>Helper:</b> Support members and report issues.</li>
+        <li><b>Owner:</b> Full control, manage all staff and server settings.</li>
+        <li><b>Sub Owner:</b> Support Owner, manage high-level roles and configs.</li>
+        <li><b>Executive:</b> Oversee staff performance and large server projects.</li>
+        <li><b>Manager:</b> Moderate channels, assign tasks, enforce rules.</li>
+        <li><b>Dev:</b> Maintain bots, scripts, and technical server operations.</li>
+        <li><b>Moderator:</b> Monitor chats, warn or mute members when needed.</li>
+        <li><b>Helper:</b> Assist members, answer questions, report problems.</li>
       </ul>
     </section>
 
     <section id="commands">
       <h4>Useful Commands</h4>
-      <p>!ban, !kick, !warn, !mute, !clear, !verify</p>
+      <p>!ban, !kick, !warn, !mute, !clear, !verify, !info</p>
+    </section>
+
+    <section id="communication">
+      <h4>Communication Guidelines</h4>
+      <ul>
+        <li>Always communicate politely with staff and members.</li>
+        <li>Use appropriate channels for discussions and announcements.</li>
+        <li>Escalate unresolved issues to Manager or Owner.</li>
+        <li>Document important events or incidents.</li>
+      </ul>
     </section>
 
     <section id="notes">
-      <h4>Notes</h4>
-      <p>Remember: This panel is only for official staff. Leaking information will lead to removal.</p>
+      <h4>Training & Improvement</h4>
+      <ul>
+        <li>Review server rules periodically.</li>
+        <li>Train new staff members when needed.</li>
+        <li>Provide feedback to help improve team performance.</li>
+      </ul>
     </section>
   </main>
   <script src="script.js"></script>

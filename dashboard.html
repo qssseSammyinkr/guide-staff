@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Staff Guide Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dashboard-page">
+  <nav>
+    <h2>Staff Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+  </nav>
+  <main>
+    <h3 id="welcome"></h3>
+    <section id="rules">
+      <h4>Rules</h4>
+      <ul>
+        <li>Respect all members equally.</li>
+        <li>Do not abuse your power.</li>
+        <li>Always act maturely and responsibly.</li>
+      </ul>
+    </section>
+
+    <section id="permissions">
+      <h4>Permissions by Role</h4>
+      <ul>
+        <li><b>Owner:</b> Full access to everything.</li>
+        <li><b>Sub Owner:</b> Manage admins, configs, and members.</li>
+        <li><b>Executive:</b> Manage staff and server sections.</li>
+        <li><b>Manager:</b> Moderate channels, assign roles.</li>
+        <li><b>Dev:</b> Manage bot systems and code.</li>
+        <li><b>Moderator:</b> Keep chats clean and safe.</li>
+        <li><b>Helper:</b> Support members and report issues.</li>
+      </ul>
+    </section>
+
+    <section id="commands">
+      <h4>Useful Commands</h4>
+      <p>!ban, !kick, !warn, !mute, !clear, !verify</p>
+    </section>
+
+    <section id="notes">
+      <h4>Notes</h4>
+      <p>Remember: This panel is only for official staff. Leaking information will lead to removal.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

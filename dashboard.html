@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Staff Guide Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Staff Guide Dashboard</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body class="dashboard-page">
   <nav>
@@ -14,10 +14,13 @@
       <button onclick="logout()">Logout</button>
     </div>
   </nav>
+
+  <div id="ipAlert" class="ip-alert" style="display:none;">⚠️ Suspicious IP detected!</div>
+
   <main>
     <h3 id="welcome"></h3>
 
-    <section id="rules">
+    <section class="card" id="rules">
       <h4>Server Rules</h4>
       <ul>
         <li>Respect all members equally.</li>
@@ -31,7 +34,7 @@
       </ul>
     </section>
 
-    <section id="roles">
+    <section class="card" id="roles">
       <h4>Staff Roles & Responsibilities</h4>
       <ul>
         <li><b>Owner:</b> Full control, manage all staff and server settings.</li>
@@ -44,12 +47,12 @@
       </ul>
     </section>
 
-    <section id="commands">
+    <section class="card" id="commands">
       <h4>Useful Commands</h4>
       <p>!ban, !kick, !warn, !mute, !clear, !verify, !info</p>
     </section>
 
-    <section id="communication">
+    <section class="card" id="communication">
       <h4>Communication Guidelines</h4>
       <ul>
         <li>Always communicate politely with staff and members.</li>
@@ -59,7 +62,7 @@
       </ul>
     </section>
 
-    <section id="notes">
+    <section class="card" id="notes">
       <h4>Training & Improvement</h4>
       <ul>
         <li>Review server rules periodically.</li>
@@ -68,6 +71,6 @@
       </ul>
     </section>
   </main>
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Staff Guide - Admin Panel</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Staff Guide - Admin Panel</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body class="admin-page">
-  <nav>
-    <h2>Admin Panel</h2>
-    <button onclick="goBack()">Back to Dashboard</button>
-  </nav>
-  <main>
-    <h3>Manage Staff Users</h3>
-    <table id="staffTable">
-      <thead>
-        <tr><th>Role</th><th>Username</th><th>Password</th><th>Actions</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+<nav>
+<h2>Admin Panel</h2>
+<button onclick="goBack()">Back to Dashboard</button>
+</nav>
 
-    <h4>Add New Staff</h4>
-    <input type="text" id="newRole" placeholder="Role" />
-    <input type="text" id="newUser" placeholder="Username" />
-    <input type="text" id="newPass" placeholder="Password" />
-    <button onclick="addStaff()">Add Staff</button>
-  </main>
-  <script src="script.js"></script>
+<main>
+<h3>Manage Staff Users</h3>
+<table id="staffTable">
+  <thead><tr><th>Role</th><th>Username</th><th>Password</th><th>Actions</th></tr></thead>
+  <tbody></tbody>
+</table>
+
+<h4>Add New Staff</h4>
+<input type="text" id="newRole" placeholder="Role" />
+<input type="text" id="newUser" placeholder="Username" />
+<input type="text" id="newPass" placeholder="Password" />
+<button onclick="addStaff()">Add Staff</button>
+</main>
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Owner Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="initOwner()">
+<div class="owner-container card">
+  <h1>Owner Dashboard</h1>
+  <p id="welcome-msg"></p>
+  <h2>Register New Staff</h2>
+  <input type="text" id="new-username" placeholder="Username">
+  <input type="password" id="new-password" placeholder="Password">
+  <button onclick="registerUser()">Register Staff</button>
+  <h2>Registered Users</h2>
+  <ul id="user-list"></ul>
+  <h2>Announcements</h2>
+  <ul id="notices-list"></ul>
+  <button onclick="logout()" class="btn logout-btn">Logout</button>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

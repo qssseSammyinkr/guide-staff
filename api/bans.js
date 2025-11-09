@@ -1,4 +1,5 @@
 import { Database } from "@libsql/client";
+import 'dotenv/config';
 const db = new Database({
   url: "libsql://staffdashboarddb-qsssesammyinkr.aws-ap-south-1.turso.io",
   authToken: process.env.TURSO_AUTH_TOKEN

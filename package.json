@@ -7,12 +7,16 @@
     "start": "vercel dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["staff", "dashboard", "turso", "vercel"],
+  "keywords": [
+    "staff",
+    "dashboard",
+    "turso",
+    "vercel"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@libsql/client": "^0.15.15"
+    "@libsql/client": "^0.15.15",
+    "dotenv": "^17.2.3"
   }
 }
-
-

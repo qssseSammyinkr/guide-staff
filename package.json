@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vercel dev",
+    "build": "echo 'Build completed'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,7 +17,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@libsql/client": "^0.15.15",
-    "dotenv": "^17.2.3"
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
